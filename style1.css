@@ -1,0 +1,50 @@
+h1{
+	font-family: Arial, "Times New Roman";
+    font-size: 28px;
+    font-style: bold;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 20px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.login
+{
+	width: 380px;
+	height: 500px;
+	background:black;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+p{
+	font-family: sans-serif;
+	font-size: 22px;
+	
+
+}
+.login input[type="text"],input[type="number"]
+{
+	background: white;
+    color: white;
+    height: 20px;
+    font-size: 17px;
+     width:40px; 
+}
+.login input[type="date"]
+{
+	height: 20px;
+	font-size: 17px;
+}
+.login input[type="submit"]
+{
+	
+	background: lightblue;
+	height: 24px;
+	font-size: 17px;
+
+}
